@@ -8,4 +8,4 @@ This is a simple, but efficient 911 script for your server and ultilizes Hamz's 
 [preview](https://youtu.be/XZty7Ik2KCQ)
 
 
-Contact me at Mr.Gamer#2222 or join my [discord!](https://discord.gg/btDCYASVF6)
+Contact me at Mr.Gamer#2222 or join my [discord!](https://discord.gg/GWNaqpVKFY)
