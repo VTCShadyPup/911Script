@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Mr.Gamer'
 description 'Simple 911 Script'
-version 'v1.1.0'
+version 'v1.1.1'
 
 
 shared_script 'config.lua'
