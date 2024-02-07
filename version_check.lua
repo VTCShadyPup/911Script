@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------
--- Simple 911 Script by Mr.Gamer- A Simple FiveM Script, Made By Mr.Gamer#2222 --
+-- Simple 911 Script by ShadyPup- A Simple FiveM Script, Made By ShadyPup --
 -----------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 -- !WARNING! !WARNING! !WARNING! !WARNING! !WARNING! --
@@ -11,7 +11,7 @@ local label =
     [[ 
   //
   ||         📞🆘 | 911 Script for HAMZ CAD | 📞🆘  
-  ||                Created by Mr.Gamer#2222
+  ||                Created by ShadyPup
   ||]]
 
 
@@ -22,7 +22,7 @@ local label =
 Citizen.CreateThread(function()
     local CurrentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
     if not CurrentVersion then
-        print('^1Simple 911 Script by Mr.Gamer Version Check Failed!^7')
+        print('^1Simple 911 Script by ShadyPup Version Check Failed!^7')
     end
     
     function VersionCheckHTTPRequest()
@@ -35,7 +35,7 @@ Citizen.CreateThread(function()
             local Data = json.decode(response)
             if CurrentVersion ~= Data.NewestVersion then
                 print(label)
-                print('  ||    \n  ||    Simple 911 Script by Mr.Gamer is outdated!')
+                print('  ||    \n  ||    Simple 911 Script by ShadyPup is outdated!')
                 print('  ||    Current version: ^2' .. Data.NewestVersion .. '^7')
                 print('  ||    Your version: ^1' .. CurrentVersion .. '^7')
                 print('  ||    Please download the lastest version from ^5' .. Data.DownloadLocation .. '^7')
@@ -44,11 +44,11 @@ Citizen.CreateThread(function()
                 end
             else
                 print(label)
-                print('  ||    ^2Simple 911 Script by Mr.Gamer is up to date!\n^0  ||\n  \\\\\n')
+                print('  ||    ^2Simple 911 Script by ShadyPup is up to date!\n^0  ||\n  \\\\\n')
             end
         else
             print(label)
-            print('  ||    ^1There was an error getting the latest version information, if the issue persists contact Mr.Gamer#2222 on Discord.\n^0  ||\n  \\\\\n')
+            print('  ||    ^1There was an error getting the latest version information, if the issue persists contact ShadyPup on Discord.\n^0  ||\n  \\\\\n')
         end
         
         SetTimeout(60000000, VersionCheckHTTPRequest)

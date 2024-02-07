@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Mr.Gamer'
+author 'ShadyPup'
 description 'Simple 911 Script'
 version 'v1.1.1'
 
